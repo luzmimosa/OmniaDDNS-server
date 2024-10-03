@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec \"ts-node src/App.ts\""
+    "start": "ts-node src/App.ts"
   },
   "keywords": [],
   "author": "",
@@ -12,12 +12,12 @@
   "dependencies": {
     "axios": "^1.7.7",
     "jsonwebtoken": "^9.0.2",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
   },
   "devDependencies": {
     "@types/jsonwebtoken": "^9.0.7",
-    "nodemon": "^3.1.7",
-    "typescript": "^5.6.2"
+    "nodemon": "^3.1.7"
   },
   "nodemonConfig": {
     "watch": [

@@ -81,5 +81,6 @@ export const startServer = async () => {
     });
 
     server.listen(config.port);
+    console.log("OmniaDDNS server started");
     console.log(`Server running at http://localhost:${config.port}/`);
 }
